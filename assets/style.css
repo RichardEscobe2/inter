@@ -1,7 +1,15 @@
 /* Estilos CSS personalizados */
 
+:root {
+    --petroleo-oscuro: #00343d;
+    --naranja-fuerte: #d34e12;
+    --dorado-oscuro: #9a621b;
+    --negro: #000000;
+    --blanco: #ffffff;
+}
+
 .navbar {
-    background-color: #004085 !important; /* Azul oscuro */
+    background-color: var(--petroleo-oscuro) !important;
 }
 
 .navbar .navbar-brand,
@@ -24,9 +32,9 @@ main {
 }
 
 .footer {
-    background-color: #004085 !important; /* Azul oscuro */
-    color: white !important; /* Asegura que el texto dentro del footer sea blanco */
-    padding: 2rem 0; 
+    background-color: var(--petroleo-oscuro) !important;
+    color: var(--blanco) !important;
+    padding: 2rem 0;
     text-align: center;
 }
 
@@ -51,7 +59,7 @@ main {
 
 /* Estilos para la Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(0, 64, 133, 0.6), rgba(0, 64, 133, 0.6)), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1c2luZXNzJTIwZmluYW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=80') no-repeat center center;
+    background: linear-gradient(rgba(0, 52, 61, 0.7), rgba(0, 52, 61, 0.7)), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1c2luZXNzJTIwZmluYW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=80') no-repeat center center;
     background-size: cover;
     padding: 120px 0; /* Aumentar padding para más impacto visual */
     margin-bottom: 0; /* Asegura que no haya margen inferior si main no tiene padding superior */
@@ -68,15 +76,15 @@ main {
 }
 
 .hero-section .btn-primary {
-    background-color: #007bff; /* Azul primario de Bootstrap */
-    border-color: #007bff;
+    background-color: var(--naranja-fuerte);
+    border-color: var(--naranja-fuerte);
     padding: 10px 30px;
     font-size: 1.2rem;
 }
 
 .hero-section .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background-color: #b33e0e;
+    border-color: #b33e0e;
 }
 
 /* Ajustes generales para el contenido de index.php */
@@ -92,7 +100,7 @@ main {
 }
 
 #cursos .card-title {
-    color: #004085; /* Azul oscuro para los títulos de las tarjetas */
+    color: var(--dorado-oscuro);
     font-weight: bold;
 }
 
@@ -106,7 +114,7 @@ main {
 
 #nosotros h2 {
     font-weight: bold;
-    color: #004085; /* Azul oscuro */
+    color: var(--petroleo-oscuro);
 }
 
 #nosotros ul {
@@ -130,7 +138,7 @@ main {
 
 #blog h2 {
     font-weight: bold;
-    color: #004085; /* Azul oscuro */
+    color: var(--petroleo-oscuro);
 }
 
 #blog .card { /* Estilo específico para las tarjetas de blog, similar a cursos */
@@ -145,7 +153,7 @@ main {
 }
 
 #blog .card-title {
-    color: #004085; /* Azul oscuro */
+    color: var(--dorado-oscuro);
     font-weight: bold;
     font-size: 1.15rem; /* Ligeramente más pequeño que el título del curso */
 }
@@ -155,18 +163,18 @@ main {
 }
 
 #blog .btn-outline-primary {
-    color: #004085;
-    border-color: #004085;
+    color: var(--naranja-fuerte);
+    border-color: var(--naranja-fuerte);
 }
 
 #blog .btn-outline-primary:hover {
-    background-color: #004085;
-    color: white;
+    background-color: var(--naranja-fuerte);
+    color: var(--blanco);
 }
 
 #testimonios h2, #porque-elegirnos h2, #cta-final h2 {
     font-weight: bold;
-    color: #004085; /* Azul oscuro para títulos de sección */
+    color: var(--petroleo-oscuro);
 }
 #cta-final h2 { /* CTA final tiene fondo azul, así que texto blanco */
     color: white;
@@ -196,7 +204,7 @@ main {
 }
 
 #porque-elegirnos .feature-box h5 {
-    color: #004085;
+    color: var(--dorado-oscuro);
     font-weight: bold;
     margin-top: 10px;
 }
@@ -218,19 +226,19 @@ main {
 }
 
 .auth-page .card-header {
-    background-color: #004085; /* Azul oscuro */
-    color: white;
+    background-color: var(--petroleo-oscuro);
+    color: var(--blanco);
     font-size: 1.25rem;
     font-weight: bold;
     text-align: center;
 }
 
 .auth-page .btn-primary {
-    background-color: #0056b3; /* Un azul ligeramente más oscuro para el botón principal */
-    border-color: #0056b3;
+    background-color: var(--naranja-fuerte);
+    border-color: var(--naranja-fuerte);
 }
 
 .auth-page .btn-primary:hover {
-    background-color: #004085;
-    border-color: #00376b;
+    background-color: #b33e0e;
+    border-color: #b33e0e;
 }
