@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="asstes/estilo.css">
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
@@ -38,14 +38,15 @@
             <div class="container">
                 <h1>Transforma tu Conocimiento Financiero, Impulsa tu Futuro.</h1>
                 <p class="lead">Descubre nuestros programas de vanguardia diseñados por expertos de la industria para dominar el mundo de las finanzas y alcanzar tus metas económicas.</p>
-                <a href="#cursos" class="btn btn-primary btn-lg">Explora Nuestros Cursos</a>
+                <a href="#blog  " class="btn btn-primary btn-lg">Explora Nuestros Cursos</a>
             </div>
         </section>
 
         <!-- Contenido principal de la página de inicio -->
+         
         <div class="container mt-5">
-            <section id="cursos" class="mb-5">
-                <h2>Nuestros Cursos Destacados</h2>
+            <section id="blog" class="mb-5">
+                <h2 class="text-center mb-4">Nuestros Cursos Destacados</h2>
                 
                 <div class="row">
                     <div class="col-md-4 mb-4">
@@ -54,7 +55,7 @@
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Domina tus Finanzas Personales</h5>
                                 <p class="card-text flex-grow-1">Aprende a presupuestar eficazmente, crear un plan de ahorro sólido y tomar decisiones financieras inteligentes para asegurar tu bienestar económico.</p>
-                                <a href="#" class="btn btn-secondary mt-auto">Más Información</a>
+                                 <a href="#" class="btn btn-outline-primary mt-3 align-self-start">Leer Más</a>
                             </div>
                         </div>
                     </div>
@@ -64,7 +65,7 @@
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Inversiones Inteligentes desde Cero</h5>
                                 <p class="card-text flex-grow-1">Descubre los principios fundamentales de la inversión. Analiza diferentes instrumentos financieros y desarrolla estrategias para hacer crecer tu capital.</p>
-                                <a href="#" class="btn btn-secondary mt-auto">Más Información</a>
+                                <a href="#" class="btn btn-outline-primary mt-3 align-self-start">Leer Más</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +75,7 @@
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Navegando los Mercados Financieros Globales</h5>
                                 <p class="card-text flex-grow-1">Comprende la dinámica de los mercados de capitales, divisas y commodities. Aprende a interpretar indicadores y gestionar riesgos en un entorno global.</p>
-                                <a href="#" class="btn btn-secondary mt-auto">Más Información</a>
+                                 <a href="#" class="btn btn-outline-primary mt-3 align-self-start">Leer Más</a>
                             </div>
                         </div>
                     </div>
@@ -91,10 +92,10 @@
                             <p>Contamos con un equipo de instructores expertos, con años de experiencia real en la industria, dedicados a compartir su sabiduría y guiarte en cada paso de tu aprendizaje. Nuestra metodología combina teoría rigurosa con aplicación práctica, asegurando que adquieras habilidades relevantes y demandadas en el mercado actual.</p>
                             <p><strong>Nuestros Valores:</strong></p>
                             <ul>
-                                <li><i class="fas fa-check-circle text-primary mr-2"></i>Excelencia Educativa</li>
-                                <li><i class="fas fa-check-circle text-primary mr-2"></i>Integridad y Transparencia</li>
-                                <li><i class="fas fa-check-circle text-primary mr-2"></i>Innovación Constante</li>
-                                <li><i class="fas fa-check-circle text-primary mr-2"></i>Enfoque en el Estudiante</li>
+                                <li><i class="fas fa-check-circle text-danger-emphasis mr-2"></i>Excelencia Educativa</li>
+                                <li><i class="fas fa-check-circle text-danger-emphasis mr-2"></i>Integridad y Transparencia</li>
+                                <li><i class="fas fa-check-circle text-danger-emphasis mr-2"></i>Innovación Constante</li>
+                                <li><i class="fas fa-check-circle text-danger-emphasis mr-2"></i>Enfoque en el Estudiante</li>
                             </ul>
                         </div>
                         <div class="col-md-6 text-center">
@@ -153,12 +154,12 @@
                         <div class="col-md-6 mb-4">
                             <div class="card testimonial-card">
                                 <div class="card-body">
-                                    <p class="card-text font-italic">"¡El curso de Finanzas Personales cambió mi vida! Pasé de estar perdida con mis cuentas a tener un plan claro y ahorrar para mi futuro. Los profesores son increíbles."</p>
+                                    <p class="card-text font-italic">"¡El curso de Finanzas Personales cambió mi vida! Pasé de estar perdido con mis cuentas a tener un plan claro y ahorrar para mi futuro. Los profesores son increíbles."</p>
                                 </div>
                                 <div class="card-footer d-flex align-items-center">
-                                    <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d29tYW4lMjBwcm9maWxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=60&q=80" alt="Ana Pérez" class="rounded-circle mr-3" style="width: 60px; height: 60px;">
+                                    <img src="imgs/ema.jpeg" alt="Osvaldo Gonzalez" class="rounded-circle mr-3" style="width: 60px; height: 60px;">
                                     <div>
-                                        <strong>Osvaldo Gonzalez</strong><br>
+                                        <strong>Emmanuel Ibarra</strong><br>
                                         <small class="text-muted">Exalumno, Finanzas Personales</small>
                                     </div>
                                 </div>
@@ -170,9 +171,9 @@
                                     <p class="card-text font-italic">"Como profesional de las finanzas, buscaba actualizar mis conocimientos. El curso de Mercados Avanzados superó mis expectativas. Contenido relevante y aplicable al mundo real."</p>
                                 </div>
                                 <div class="card-footer d-flex align-items-center">
-                                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFuJTIwcHJvZmVzc2lvbmFsJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA&auto=format&fit=crop&w=60&q=80" alt="Carlos López" class="rounded-circle mr-3" style="width: 60px; height: 60px;">
+                                    <img src="imgs/osv.jpeg" alt="Carlos López" class="rounded-circle mr-3" style="width: 60px; height: 60px;">
                                     <div>
-                                        <strong>Emmanuel Ibarra</strong><br>
+                                        <strong>Osvaldo Gonzalez</strong><br>
                                         <small class="text-muted">Profesional del Sector, Mercados Avanzados</small>
                                     </div>
                                 </div>
@@ -189,28 +190,28 @@
                     <div class="row text-center">
                         <div class="col-md-3 mb-4">
                             <div class="feature-box">
-                                <i class="fas fa-chalkboard-teacher fa-3x text-primary mb-3"></i>
+                                <i class="fas fa-chalkboard-teacher fa-3x text-danger-emphasis mb-3"></i>
                                 <h5>Instructores Expertos</h5>
                                 <p>Aprende de profesionales con experiencia probada en la industria financiera.</p>
                             </div>
                         </div>
                         <div class="col-md-3 mb-4">
                             <div class="feature-box">
-                                <i class="fas fa-cogs fa-3x text-primary mb-3"></i>
+                                <i class="fas fa-cogs fa-3x text-danger-emphasis mb-3"></i>
                                 <h5>Metodología Práctica</h5>
                                 <p>Enfoque en casos reales y herramientas aplicables para un aprendizaje efectivo.</p>
                             </div>
                         </div>
                         <div class="col-md-3 mb-4">
                             <div class="feature-box">
-                                <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                                <i class="fas fa-users fa-3x text-danger-emphasis mb-3"></i>
                                 <h5>Networking Valioso</h5>
                                 <p>Conecta con una comunidad de profesionales y compañeros apasionados por las finanzas.</p>
                             </div>
                         </div>
                         <div class="col-md-3 mb-4">
                             <div class="feature-box">
-                                <i class="fas fa-clock fa-3x text-primary mb-3"></i>
+                                <i class="fas fa-clock fa-3x text-danger-emphasis mb-3"></i>
                                 <h5>Flexibilidad</h5>
                                 <p>Programas adaptados a tu ritmo, con diversas modalidades de estudio.</p>
                             </div>
@@ -220,7 +221,7 @@
             </section>
 
             <!-- Call to Action Final -->
-            <section id="cta-final" class="py-5 bg-primary text-white text-center">
+            <section id="cta-final" class="py-5  text-white text-center">
                 <div class="container">
                     <h2>¿Listo para Dar el Siguiente Paso en tu Carrera Financiera?</h2>
                  
