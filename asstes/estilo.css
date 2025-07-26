@@ -1,0 +1,273 @@
+/* Estilos CSS personalizados */
+
+:root {
+    --petroleo-oscuro: #00343d;
+    --naranja-fuerte: #d34e12;
+    --dorado-oscuro: #9a621b;
+    --negro: #000000;
+    --blanco: #ffffff;
+}
+
+.navbar {
+    background-color: var(--petroleo-oscuro) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: var(--naranja-fuerte) !important;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    background-color: var(--petroleo-oscuro) !important;
+    color: var(--blanco) !important;
+    padding: 2rem 0; 
+    text-align: center;
+}
+
+.footer span.text-muted { /* Específico para el span con clase text-muted dentro del footer */
+    color: #f8f9fa !important; /* Un blanco ligeramente menos brillante */
+}
+
+.footer .social-icons {
+    margin-top: 10px; /* Espacio entre el copyright y los iconos */
+}
+
+.footer .social-icons a {
+    color: white; /* Color inicial de los iconos */
+    margin: 0 10px; /* Espacio entre iconos */
+    font-size: 1.5rem; /* Tamaño de los iconos */
+    transition: color 0.3s ease-in-out; /* Transición suave para el hover */
+}
+
+.footer .social-icons a:hover {
+    color: #cce5ff !important; /* Color de los iconos en hover */
+}
+
+/* Estilos para la Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 52, 61, 0.7), rgba(0, 52, 61, 0.7)), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1c2luZXNzJTIwZmluYW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=80') no-repeat center center;
+    background-size: cover;
+    padding: 120px 0; /* Aumentar padding para más impacto visual */
+    margin-bottom: 0; /* Asegura que no haya margen inferior si main no tiene padding superior */
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-section .lead {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn-primary {
+    background-color: var(--naranja-fuerte);
+    border-color: var(--naranja-fuerte);
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #b33e0e;
+    border-color: #b33e0e;
+}
+
+#cta-final {
+    background-color: var(--petroleo-oscuro);
+}
+
+#porque-elegirnos .feature-box i {
+    color: var(--naranja-fuerte);
+}
+
+#nosotros ul li i {
+    color: var(--naranja-fuerte);
+}
+
+/* Ajustes generales para el contenido de index.php */
+#cursos .card { /* Estilo específico para las tarjetas de cursos */
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.1); /* Sombra un poco más pronunciada */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#cursos .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+#cursos .card-title {
+    color: var(--dorado-oscuro);
+    font-weight: bold;
+}
+
+#cursos .card-img-top {
+    border-bottom: 1px solid #eee;
+}
+
+#nosotros { /* Estilo específico para la sección sobre nosotros */
+    /* bg-light ya se aplica en HTML, py-5 también. Se pueden añadir más estilos aquí si es necesario */
+}
+
+#nosotros h2 {
+    font-weight: bold;
+    color: var(--petroleo-oscuro);
+}
+
+#nosotros ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#nosotros ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+#nosotros .lead {
+    font-weight: 500;
+    color: #333;
+}
+
+#blog {
+    /* py-5 ya se aplica en HTML */
+}
+
+#blog h2 {
+    font-weight: bold;
+    color: var(--petroleo-oscuro);
+}
+
+#blog .card { /* Estilo específico para las tarjetas de blog, similar a cursos */
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#blog .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+#blog .card-title {
+    color: var(--dorado-oscuro);
+    font-weight: bold;
+    font-size: 1.15rem; /* Ligeramente más pequeño que el título del curso */
+}
+
+#blog .card-img-top {
+    border-bottom: 1px solid #eee;
+}
+
+#blog .btn-outline-primary {
+    color: var(--naranja-fuerte);
+    border-color: var(--naranja-fuerte);
+}
+
+#blog .btn-outline-primary:hover {
+    background-color: var(--naranja-fuerte);
+    color: var(--blanco);
+}
+
+#testimonios h2, #porque-elegirnos h2, #cta-final h2 {
+    font-weight: bold;
+    color: var(--petroleo-oscuro);
+}
+#cta-final h2 { /* CTA final tiene fondo azul, así que texto blanco */
+    color: white;
+}
+
+
+#testimonios .testimonial-card {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.05);
+    background-color: white; /* Asegurar fondo blanco si bg-light está en la sección */
+}
+
+#testimonios .testimonial-card .card-footer {
+    background-color: #f8f9fa; /* Un fondo ligeramente diferente para el pie del testimonio */
+    border-top: 1px solid #e0e0e0;
+}
+
+#porque-elegirnos .feature-box {
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#porque-elegirnos .feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+#porque-elegirnos .feature-box h5 {
+    color: var(--dorado-oscuro);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#cta-final .btn-light {
+    color: #860808; /* Texto azul para el botón claro */
+    font-weight: bold;
+}
+
+#cta-final .btn-outline-light {
+    font-weight: bold;
+}
+
+/* Estilos para las páginas de Login y Signup */
+.auth-page .card {
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    margin-top: 50px; /* Más espacio arriba */
+}
+
+.auth-page .card-header {
+    background-color: var(--petroleo-oscuro);
+    color: var(--blanco);
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.auth-page .btn-primary {
+    background-color: var(--naranja-fuerte);
+    border-color: var(--naranja-fuerte);
+}
+
+.auth-page .btn-primary:hover {
+    background-color: #b33e0e;
+    border-color: #b33e0e;
+}
+
+.sw2 {
+  border: 2px solid #d34e12;       /* contorno naranja */
+  color: #d34e12;                  /* texto naranja */
+  background-color: #ffffff;       /* fondo blanco */
+  transition: all 0.3s ease;       /* animación suave */
+}
+
+.sw2:hover {
+  background-color: #d34e12;       /* fondo naranja al pasar mouse */
+  color: #ffffff;                  /* texto blanco */
+}
+
+.sw2:active {
+  background-color: #a7380f;       /* fondo naranja oscuro al presionar */
+  border-color: #a7380f;
+}
